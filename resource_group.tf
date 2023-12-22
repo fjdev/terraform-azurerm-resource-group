@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "resource_group" {
 
   // Optional
   managed_by = var.managed_by
-  tags       = merge(try(var.tags.resource_group, null), { ManagedBy = "Terraform", CreationDate = timestamp() })
+  tags       = merge(try(var.tags.resource_group, null), { ManagedBy = "Terraform", CreationDate = timestamp(), Environment = "Test" })
 
   lifecycle {
     ignore_changes = [
