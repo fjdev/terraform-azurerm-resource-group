@@ -41,9 +41,3 @@ In addition to the Arguments listed above - the following Attributes are exporte
 | id | The ID of the Resource Group. |
 | name | The Name of the Resource Group. |
 | location | The Location of the Resource Group. |
-
-## Authors
-Originally created by [Florian de Vries](https://github.com/fjdev)
-
-## License
-[MIT](LICENSE)
