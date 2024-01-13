@@ -13,3 +13,5 @@ output "location" {
   value       = azurerm_resource_group.resource_group.location
   description = "The Location of the Resource Group."
 }
+
+// Please add more Attributes here to output them as needed.

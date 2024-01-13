@@ -14,11 +14,11 @@ variable "location" {
 variable "managed_by" {
   type        = string
   default     = null
-  description = "(Optional) The ID of the resource or application that manages this Resource Group."
+  description = "(Optional) The ID of the resource that manages this resource group."
 }
 
 variable "tags" {
   type        = any
-  default     = {}
+  default     = null
   description = "(Optional) A mapping of tags which should be assigned to the Resource Group."
 }
