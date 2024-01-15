@@ -28,16 +28,16 @@ The following arguments are supported:
 
 | Name | Type | Default | Description | Required |
 | ---- | ---- | ------- | ----------- | -------- |
-| name | string | | The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created. | yes |
-| location | string | `westeurope` | The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created. | yes |
-| managed_by | string | `null` | The ID of the resource that manages this resource group. | no |
-| tags | any | `null` | A mapping of tags which should be assigned to the Resource Group. | no |
+| `name` | string | n/a | The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created. | yes |
+| `location` | string | `westeurope` | The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created. | no |
+| `managed_by` | string | `null` | The ID of the resource that manages this resource group. | no |
+| `tags` | any | `null` | A mapping of tags which should be assigned to the Resource Group. | no |
 
 ## Outputs
 In addition to the Arguments listed above - the following Attributes are exported:
 
 | Name | Description |
 | ---- | ----------- |
-| id | The ID of the Resource Group. |
-| name | The Name of the Resource Group. |
-| location | The Location of the Resource Group. |
+| `id` | The ID of the Resource Group. |
+| `name` | The Name of the Resource Group. |
+| `location` | The Location of the Resource Group. |
