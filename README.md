@@ -7,7 +7,7 @@ This Terraform module creates an Azure Resource Group.
 ## Version compatibility
 | Module version | Terraform version | AzureRM version |
 | -------------- | ----------------- | --------------- |
-| >= 1.x.x       | >= 1.3.x          | >= 3.80.0       |
+| >= 1.0.x       | >= 1.3.x          | >= 3.80.0       |
 
 ## Usage
 ```hcl
