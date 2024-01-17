@@ -24,17 +24,17 @@ module "resource_group" {
 ```
 
 ## Arguments
-The following arguments are supported:
+The following arguments are *required* to use this module:
 
-| Name | Type | Default | Description | Required |
-| ---- | ---- | ------- | ----------- | -------- |
-| `name` | string | n/a | The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created. | yes |
-| `location` | string | `westeurope` | The Azure Region where the Resource Group should exist. Changing this forces a new Resource Group to be created. | no |
-| `managed_by` | string | `null` | The ID of the resource that manages this resource group. | no |
-| `tags` | any | `null` | A mapping of tags which should be assigned to the Resource Group. | no |
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| `name` | string | The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created. |
+
+Besided the *required* arguments listed above, their are also several *optional* arguments available. 
+For a complete list of supported arguments, please see the [variables](variables.tf) file or the Terraform Registry documentation for the specific (sub)resource.
 
 ## Outputs
-In addition to the Arguments listed above - the following Attributes are exported:
+In addition to the arguments listed above - the following attributes are exported:
 
 | Name | Description |
 | ---- | ----------- |
