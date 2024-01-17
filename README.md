@@ -30,11 +30,11 @@ The following arguments are *required* to use this module:
 | ---- | ---- | ----------- |
 | `name` | string | The Name which should be used for this Resource Group. Changing this forces a new Resource Group to be created. |
 
-Besided the *required* arguments listed above, their are also several *optional* arguments available. 
-For a complete list of supported arguments, please see the [variables](variables.tf) file or the Terraform Registry documentation for the specific (sub)resource.
+Besides the *required* arguments listed above, several *optional* arguments are also available.
+For a complete list of supported arguments, please see the [variables](variables.tf) file. Additionally, refer to the Terraform Registry documentation for the specific (sub)resource.
 
 ## Outputs
-In addition to the arguments listed above - the following attributes are exported:
+In addition to the arguments listed above, the following attributes are exported:
 
 | Name | Description |
 | ---- | ----------- |
