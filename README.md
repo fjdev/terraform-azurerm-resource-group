@@ -1,6 +1,5 @@
 # terraform-azurerm-resource-group
 [![Terraform Registry](https://img.shields.io/badge/Terraform-registry-blueviolet.svg?logo=terraform)](https://registry.terraform.io/providers/hashicorp/azurerm/3.80.0/docs/resources/resource_group)
-![GitHub release (latest)](https://img.shields.io/github/v/release/fjdev/terraform-azurerm-resource-group?label=Release)
 
 This Terraform module creates an Azure Resource Group.
 
